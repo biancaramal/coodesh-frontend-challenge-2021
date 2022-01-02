@@ -18,6 +18,11 @@ A identidade visual proposta para a empresa são tons de azul e laranja, que rep
 - ✔️ Angular
 - ✔️ Angular Material
 
+
+## API
+PI do Random User: https://randomuser.me/api/
+Documentação: https://randomuser.me/documentation
+
 ## Lista de Pacientes
 
 A tela inicial do projeto será um lista de pacientes que deverá conter um buscador para facilitar filtrar todos os que são exibidos na lista, proposta:
@@ -31,16 +36,23 @@ Na coluna de ações da tabela, existe o botão visualizar para expandir os dado
 ![View user](src/assets/view.png)
 
 Devemos exibir os seguintes campos do paciente:
-- Imagem
-- Nome completo
-- Email
-- Gênero
-- Data de nascimento
-- Telefone
-- Nacionalidade
-- Endereço
-- ID (Número de identificação)
-- URL para compartilhamento
+- [ ] Imagem
+- [ ] Nome completo
+- [ ] Email
+- [ ] Gênero
+- [ ] Data de nascimento
+- [ ] Telefone
+- [ ] Nacionalidade
+- [ ] Endereço
+- [ ] ID (Número de identificação)
+
+### Extras
+Além do desafio proposto com as telas, temos alguns diferenciais:
+- [ ] Diferencial 1 Adicionar um filtro por Gênero na tabela;
+- [ ] Diferencial 2 Configurar o buscador para poder filtrar por nome e nacionalidade;
+- [ ] Diferencial 3 Adicionar o paginador rota para facilitar compartilhar o link e manter a posição na lista;
+- [ ] Diferencial 4 Escrever Unit Tests ou E2E Test na Lista de Pacientes. Escolher a melhor abordagem e biblioteca;
+- [ ] Diferencial 5 Configurar Docker no Projeto para facilitar o Deploy da equipe de DevOps;
 
 ## Em desenvolvimento
 - Criar tela inicial (Lista de pacientes)
