@@ -30,7 +30,6 @@ Na coluna de ações da tabela, existe o botão visualizar para expandir os dado
 ![View user](src/assets/view.png)
 
 Devemos exibir os seguintes campos do paciente:
-
 - Imagem
 - Nome completo
 - Email
@@ -42,3 +41,7 @@ Devemos exibir os seguintes campos do paciente:
 - ID (Número de identificação)
 - URL para compartilhamento
 
+## Em desenvolvimento
+- Criar tela inicial (Lista de pacientes)
+- Finalizar e inserir logo e favicon
+- Atualizar README
