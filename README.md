@@ -1,27 +1,40 @@
-# ChallengeCoodesh
+# Front-End Challenge 🏅 2021
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
+## Introdução
 
-## Development server
+Desafio Frontend da Coodesh: desenvolver frontend que busca os dados de clientes da empresa Pharma Inc através de uma api e os renderiza.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Case
 
-## Code scaffolding
+A empresa Pharma Inc, está trabalhando em um projeto em colaboração com sua base de clientes para facilitar a gestão e visualização da informação dos seus pacientes de maneira simples e objetiva em um Dashboard onde podem listar, filtrar e expandir os dados disponíveis.
+O seu objetivo nesse projeto, é trabalhar no desenvolvimento do Front end que consumirá a API da empresa Pharma Inc seguindo os requisitos propostos neste desafio.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias
+    - Angular
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Lista de Pacientes
 
-## Running unit tests
+A tela inicial do projeto será um lista de pacientes que deverá conter um buscador para facilitar filtrar todos os que são exibidos na lista, proposta:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![List users](src/assets/list.png)
 
-## Running end-to-end tests
+### Visualizar paciente
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Na coluna de ações da tabela, existe o botão visualizar para expandir os dados dos pacientes. Seguir o modelo proposto:
 
-## Further help
+![View user](src/assets/view.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Devemos exibir os seguintes campos do paciente:
+
+- Imagem
+- Nome completo
+- Email
+- Gênero
+- Data de nascimento
+- Telefone
+- Nacionalidade
+- Endereço
+- ID (Número de identificação)
+- URL para compartilhamento
+
