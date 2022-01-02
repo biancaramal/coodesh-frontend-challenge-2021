@@ -16,6 +16,7 @@ A identidade visual proposta para a empresa são tons de azul e laranja, que rep
 
 ## Tecnologias
 - ✔️ Angular
+- ✔️ Angular Material
 
 ## Lista de Pacientes
 
